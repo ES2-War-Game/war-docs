@@ -1,0 +1,16 @@
+Grupo de Tarefas,Função Específica,Complexidade,Entidades Afetadas,Campos de Dados,Complexidade,Peso (PFNA),Fator de influência,Fator de ajuste,PF (Ajustado)
+Setup e Configuração,Configuração base do projeto,SE,0,1,Baixa,4,36,1.01,4.04
+Design e Páginas Iniciais,Exibir Página Principal,SE,0,6,Média,4,36,1.01,4.04
+,Exibir Página Secundária,SE,0,5,Baixa,4,36,1.01,4.04
+Autenticação de Usuário,Formulário de Cadastro,EE,0,4,Baixa,3,36,1.01,3.03
+,Formulário de Login,EE,0,2,Baixa,3,36,1.01,3.03
+Gerenciamento de Lobbies,Formulário para Criar Lobby,EE,0,1,Baixa,3,36,1.01,3.03
+,Listar Lobbies existentes,CE,0,3,Baixa,3,36,1.01,3.03
+,Exibir tela de espera do Lobby,SE,0,4,Baixa,4,36,1.01,4.04
+Interface do Jogo,Renderizar Mapa e Territórios,SE,0,20+,Alta,7,36,1.01,7.07
+,Componente de Estado do Jogo (HUD),SE,0,4,Baixa,4,36,1.01,4.04
+,Componente de Cartas do Jogador,SE,0,2,Baixa,4,36,1.01,4.04
+,"Interface para Ações (atacar, mover)",EE,0,3,Baixa,3,36,1.01,3.03
+Histórico de Partidas,Exibir Histórico,CE,0,3,Baixa,3,36,1.01,3.03
+Chat,Interface do Chat,CE,0,4,Baixa,3,36,1.01,3.03
+,,,,,,52,36,1.01,52.52

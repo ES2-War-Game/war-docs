@@ -1,0 +1,27 @@
+Grupo de Tarefas,Função Específica,Tipo de Função,Entidades Afetadas,Campos de Dados,Complexidade,Peso (PFNA),Fator de influência,Fator de ajuste,PF (Ajustado)
+Setup e Configuração,Configuração base do projeto,SE,0,1,Baixa,4,36,1.01,4.04
+Modelagem e BD,Criação de Entidades (10),ALI,1 (por entidade),7,Baixa,70,36,1.01,70.7
+Autenticação e CRUD de Usuário,Registrar Usuário,EE,3,5,Média,4,36,1.01,4.04
+,Login de Usuário,CE,2,3,Baixa,3,36,1.01,3.03
+,Gerenciar Usuário (CRUD),CE,1,5,Baixa,3,36,1.01,3.03
+Gerenciamento de Lobbies,Criar Lobby,EE,2,1,Baixa,3,36,1.01,3.03
+,Listar Lobbies,SE,1,3,Baixa,4,36,1.01,4.04
+,Entrar no Lobby,EE,2,1,Baixa,3,36,1.01,3.03
+Inicialização da Partida,Iniciar Partida e distribuir recursos,EE,6+,20,Alta,15,36,1.01,15.15
+,Criar Territórios,ALI,2,7,Baixa,7,36,1.01,7.07
+,Criar Mapa,ALI,3,14,Baixa,7,36,1.01,7.07
+Lógica de Jogo: Tropas,Alocar Tropas,EE,2,3,Baixa,3,36,1.01,3.03
+,Mover Tropas,EE,2,4,Baixa,3,36,1.01,3.03
+Lógica de Jogo: Combate,Executar Ataque,EE,6+,4,Média,4,36,1.01,4.04
+,Executar Defesa,EE,6+,4,Média,4,36,1.01,4.04
+Lógica de Jogo: Cartas,Criar Cartas,SE,1,3,Baixa,4,36,1.01,4.04
+,Comprar Cartas,EE,1,3,Baixa,3,36,1.01,3.03
+,Trocar Cartas,EE,2,4,Baixa,3,36,1.01,3.03
+Histórico de Partidas,Salvar Histórico (Entidade),ALI,1,5,Baixa,7,36,1.01,7.07
+,Salvar Histórico (Função),EE,1,4,Baixa,3,36,1.01,3.03
+,Mostrar Histórico,SE,1,3,Baixa,4,36,1.01,4.04
+Chat,Mensagem de Chat (Entidade),ALI,2,5,Baixa,7,36,1.01,7.07
+,Enviar Mensagem,EE,1,2,Baixa,3,36,1.01,3.03
+Inteligência Artificial,Calcular Próxima Jogada da IA,CE,6+,6,Alta,6,36,1.01,6.06
+Testes,Testes Unitários e de Integração,N/A,-,-,N/A,0,36,1.01,0
+,,,,,,177,36,1.01,178.77
